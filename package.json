@@ -1,0 +1,28 @@
+{
+  "name": "byname",
+  "version": "0.0.7",
+  "description": "Named Arguments in JavaScript",
+  "author": "Thomas Bradford <thom@kode4food.it>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "git@github.com:kode4food/byname.git",
+  "scripts": {
+    "build": "gulp",
+    "test": "gulp test"
+  },
+  "keywords": [
+    "javascript",
+    "function",
+    "invocation"
+  ],
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-istanbul": "^0.6.0",
+    "gulp-istanbul-enforcer": "^1.0.3",
+    "gulp-jshint": "^1.9.2",
+    "gulp-nodeunit": "0.0.5",
+    "istanbul": "^0.3.7",
+    "nodeunit": "^0.9.1",
+    "plato": "^1.4.0"
+  }
+}
